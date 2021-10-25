@@ -1,7 +1,7 @@
 package com.company.animals;
 
 public abstract class Animals {
-    protected Boolean isSleep = false;
+    private Boolean isSleep = false;
 
     public void sleep(){
         isSleep = true;
@@ -17,6 +17,6 @@ public abstract class Animals {
         }
     }
 
-    public  abstract void output();
+    protected abstract void output();
 
 }
