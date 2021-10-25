@@ -5,29 +5,25 @@ import com.company.animals.*;
 public class Main {
 
     public static void main(String[] args) {
-	Animals animal = new Dog("Шарик");
-	animal.makeNoise();
+	Animals animal = new Dog();
+	animal.Voice();
 	animal.sleep();
-	animal.makeNoise();
+	animal.Voice();
 	animal.eat();
-	animal.setName("Цезарь");
-	animal.makeNoise();
-	System.out.println();
+	animal.Voice();
 
-	animal = new Cow("Капелька");
-	animal.makeNoise();
+	animal = new Cow();
+	animal.Voice();
 	animal.sleep();
-	animal.makeNoise();
+	animal.Voice();
 	animal.eat();
-	animal.makeNoise();
-	System.out.println();
+	animal.Voice();
 
-	animal = new Rabbit("Тоша");
-	animal.makeNoise();
+	animal = new Rabbit();
+	animal.Voice();
 	animal.sleep();
-	animal.makeNoise();
+	animal.Voice();
 	animal.eat();
-	animal.makeNoise();
-	System.out.println();
+	animal.Voice();
     }
 }
